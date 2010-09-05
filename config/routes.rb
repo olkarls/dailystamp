@@ -1,4 +1,4 @@
-ActionController::Routing::Routes.draw do
+Dailystamp::Application.routes.draw do
   resources :favorites
 
   match '/signup', :controller => 'users', :action => 'new', :as => :signup
